@@ -5,4 +5,6 @@ $(function () {
 	  $('.lesson').fadeOut(300);
 	  $('#lesson_' + $(this).attr('data-index') ).fadeIn(400);
 	});
+
+	$('#lesson_1').show();
 });
